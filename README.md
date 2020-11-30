@@ -2,7 +2,8 @@
 Familiarize with dynamic memory allocation and sorting
 
 
-Familiarize yourself with structures, dynamic memory allocation, simple math, and sorting using C. In this project you will write a single program (with various functionality being adequately partitioned into multiple functions, and across multiple files) that will read from a data file, which contains student ID, student name, and grade.
+Familiarize yourself with structures, dynamic memory allocation, simple math, and sorting using C. 
+Single program (with various functionality being adequately partitioned into multiple functions, and across multiple files) that will read from a data file, which contains student ID, student name, and grade.
 The input file will specify student information (in the form: <student_id> <name> <grade> ) per line. The student IDs are numeric values that are guaranteed to fit within a 32 bit unsigned integer type. The student names are strings in the form of lastname, firstname each with at most 32 characters. The grades are float types (i.e., they are guaranteed to fit in a float type). There is no limit to the number of lines in the file and consequently, to the students that your program must handle. A sample input file file1.data is shown below:
 10002345 Mouse, Micky 90.0
 34347887 Duck, Donald 62.0
@@ -37,13 +38,10 @@ Micky Mouse 10002345 94.0
 Minnie Mouse 34347887 81.0
 Donald Duck 28376654 76.0
 
-Write a single program that does one of the above actions depending on the command line input. Name your executable "grade" which takes either two,three, or four arguments depending on the choice and is invoked as follows:
-
+Execution:
 bash$ ./grade <choice> <input-file1> [input-file2] [input-file3]
 
-Choice can be either A, B, C, or D and the program will run the corresponding management routine. Parts A and B take 2 arguments (choice, input-file1). Choice C takes 2 additional arguments (input-file2, and input-file3) while choice D takes 1 additional argument (input-file2). Write the routines in separate C file(s) as appropriate and link it to the main program using a Makefile. 
-Note: YOU MAY USE the qsort() C library function. 
-
+Choice can be either A, B, C, or D and the program will run the corresponding management routine. Parts A and B take 2 arguments (choice, input-file1). Choice C takes 2 additional arguments (input-file2, and input-file3) while choice D takes 1 additional argument (input-file2). 
 
 
 
